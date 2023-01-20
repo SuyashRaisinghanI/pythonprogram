@@ -1,0 +1,16 @@
+stringA = '0110101010111'
+b = {'0','1'}
+t = set(stringA)
+
+if b == t or t == {'0'} or t == {'1'}:
+print("StringA is a binary string.")
+else:
+print("StringA is not a binary string.")
+
+stringB = '0120101010111'
+u = set(stringB)
+
+if b == u or u == {'0'} or u == {'1'}:
+print("StringB is a binary string.")
+else:
+print("StringB is not a binary string.")
